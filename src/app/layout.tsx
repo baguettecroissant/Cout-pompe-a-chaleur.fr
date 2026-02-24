@@ -70,11 +70,6 @@ export default function RootLayout({
         className={`${roboto.variable} font-sans antialiased text-slate-900 bg-slate-50 min-h-screen flex flex-col`}
       >
         <Script
-          src="https://cloud.umami.is/script.js"
-          data-website-id="490067ef-024b-45c1-b8bd-dbce100285a1"
-          strategy="afterInteractive"
-        />
-        <Script
           src="https://nhmvgsrwhjsjnpncpiaj.supabase.co/functions/v1/analytics-collect?script=1"
           strategy="afterInteractive"
           defer
