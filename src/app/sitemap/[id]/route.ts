@@ -33,7 +33,7 @@ export async function GET(
 
     if (sitemapId === 'main') {
         // Use a realistic fixed date for static pages (last major site update)
-        const siteLastUpdated = new Date('2026-02-13');
+        const siteLastUpdated = new Date('2026-02-24');
 
         const staticPages = [
             { path: '', priority: 1, frequency: 'daily' },
@@ -95,7 +95,7 @@ export async function GET(
             return notFound();
         }
 
-        const cityLastUpdated = new Date('2026-02-13');
+        const cityLastUpdated = new Date('2026-02-24');
         urls = departmentCities.map((city) => ({
             url: `${BASE_URL}/prix-pompe-a-chaleur/${city.slug}`,
             lastModified: cityLastUpdated,
