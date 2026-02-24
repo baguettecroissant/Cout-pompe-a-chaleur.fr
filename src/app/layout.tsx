@@ -74,6 +74,11 @@ export default function RootLayout({
           data-website-id="490067ef-024b-45c1-b8bd-dbce100285a1"
           strategy="afterInteractive"
         />
+        <Script
+          src="https://nhmvgsrwhjsjnpncpiaj.supabase.co/functions/v1/analytics-collect?script=1"
+          strategy="afterInteractive"
+          defer
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
