@@ -225,27 +225,58 @@ export const GUIDES_PART_2: GuideArticle[] = [
     },
     {
         slug: "cumuler-aides-pompe-a-chaleur-2026",
-        title: "Cumuler les Aides Pompe à Chaleur en 2026 : Les Règles d'Or",
-        excerpt: "Comment associer MaPrimeRénov', la surprime CEE et les aides locales de votre département sans franchir les plafonds.",
-        date: "2025-12-19",
+        title: "Cumuler les Aides Pompe à Chaleur en 2026 : Le Guide du Montage Financier Exact",
+        excerpt: "Comment associer MaPrimeRénov', la Prime CEE Coup de Pouce, l'Éco-PTZ et les aides locales sans franchir les plafonds d'écrêtement 2026 ? Explications détaillées.",
+        date: "2026-02-24",
         author: "Équipe Rédaction",
-        image: "/images/blog/cumuler-aides-pompe-a-chaleur-2026.png",
-        metaTitle: "Cumuler les Subventions Pompe à Chaleur (Optimisation 2026)",
-        metaDescription: "Comment faire son montage financier ? Cumul de la Prime Énergie (CEE), de MaPrimeRénov, de la TVA réduite et des Prêts Taux Zéro.",
-        imagePrompt: "A person happily organizing and stacking various official French logos on a board, symbolizing combining state financial aids to build a heating project budget. Bright colors. 8k.",
+        image: "/images/guides/cumul_aides_pac.png",
+        metaTitle: "Cumuler les Aides Pompe à Chaleur 2026 : CEE + MaPrimeRénov'",
+        metaDescription: "Découvrez comment optimiser votre montage financier pour installer une pompe à chaleur. Règles de cumul, écrêtement, et exemples pour 2026.",
+        imagePrompt: "A highly professional, conceptual but realistic photo showing a stack of official French documents representing various financial aids (MaPrimeRenov', CEE, Eco-PTZ) being neatly organized on a wooden desk next to a sleek blueprint of a heat pump installation. Warm sunlight streaming through a window, conveying optimism, organization, and financial savings. 8k resolution, photorealistic, cinematic lighting.",
         content: `
-            <h2>L'Art du Montage Financier Sans Erreur</h2>
-            <p>La règle d'or pour financer sa pompe à chaleur : <strong>Les aides locales et nationales sont majoritairement cumulables</strong>, mais elles sont toutes subordonnées aux plafonds autorisés de l'Anah. Voici la formule mathématique des instructeurs en 2026 :</p>
-            <h3>La Base : CEE (Certificats) + MaPrimeRénov'</h3>
-            <p>Vous n'avez pas à choisir ! Si vous êtes un foyer de type "Bleu" (Très Modeste), vous obtenez la Prime "Coup de Pouce Chauffage" des distributeurs de carburant ET la MaPrimeRénov'. L'AMO (l'accompagnateur) calculera le cumul exact.</p>
-            <h3>Les Surprimes (Celles que vous Loupez !)</h3>
-            <ul>
-                <li><strong>Aide Communale / Départementale :</strong> Des départements de province subventionnent l'abandon du Fioul (+ 500€ à 1000€) via le fonds "Air bois / fond vert". Elle est cumulable (mais baisse proportionnellement MPR selon les montants).</li>
-                <li><strong>La Rénovation Globale (Bonus DPE "Sortie de Passoire") :</strong> Si l'installation de votre PAC Air/Eau est associée à une isolation de vos combles dans le même grand devis pour passer d'une note DPE "F" à "D", la prime totale explose pouvant atteindre plus de 40 000€ HT pour une rénovation complète (MaPrimeRénov Parcours Accompagné).</li>
+            <h2>L'Art du Montage Financier Sans Erreur en 2026</h2>
+            <p>L'installation d'une pompe à chaleur (PAC) représente souvent l'investissement thermique le plus lourd de la vie d'un logement. Heureusement, en 2026, l'État français encourage massivement la souveraineté énergétique. La règle d'or pour baisser son reste à charge (RAC) est simple : <strong>Les aides locales et nationales sont cumulables</strong>, à condition de maîtriser les règles de calcul et la notion "d'écrêtement".</p>
+
+            <h3>1. La Règle de Base : Le Cumul Ultime CEE + MaPrimeRénov'</h3>
+            <p>Sauf pour les ménages considérés comme "Aisés" (profil Rose sur la grille de l'Anah), le socle de tout financement d'une pompe à chaleur repose sur le couplage de deux primes :</p>
+            <ul class="list-disc pl-6 space-y-2 my-4">
+                <li><strong>MaPrimeRénov' (MPR) :</strong> L'aide directe de l'État (l'Anah). Elle va de 3 000€ à 11 000€ selon votre revenu fiscal de référence (RFR) et la technologie (Air/Eau ou Géothermie).</li>
+                <li><strong>La Prime CEE "Coup de Pouce Chauffage" :</strong> Versée par les fournisseurs d'énergie (EDF, Total, Leclerc...), elle récompense l'abandon d'une chaudière fioul, gaz ou charbon. Elle oscille entre 2 500€ et 5 000€.</li>
             </ul>
-            <p>Ne prenez pas la calculette vous-même, l'Assistance à Maîtrise d'Ouvrage (Mon Accompagnateur Rénov' obligatoire pour les gros bouquets de travaux) le fera pour vous.</p>
-            <div class="my-8 text-center">
-                <a href="/calculateur-aides" class="inline-block bg-emerald-600 text-white font-bold py-3 px-8 rounded-full hover:bg-emerald-700 transition-colors shadow-lg">Lancer le simulateur national officiel mis à jour 2026</a>
+            <p>Ces deux aides <strong>s'additionnent directement</strong> sur votre devis si vous travaillez avec un artisan mandataire financier.</p>
+
+            <div class="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 my-8">
+                <h4 class="text-blue-900 font-bold text-lg mb-2">💡 La Règle de l'Écrêtement 2026</h4>
+                <p class="text-blue-800">
+                    L'État interdit le financement d'une pompe à chaleur à 100% ou plus. C'est la fameuse disparition des offres "à 1 euro". Le montant cumulé de (MPR + CEE + Aides Locales) ne peut pas excéder :
+                    <br/>- <strong>90 %</strong> de la facture totale TTC pour les ménages Très Modestes (Bleu)
+                    <br/>- <strong>75 %</strong> pour les ménages Modestes (Jaune)
+                    <br/>- <strong>60 %</strong> pour les ménages Intermédiaires (Violet)
+                    <br/>- <strong>40 %</strong> pour les ménages Aisés (Rose)
+                </p>
+            </div>
+
+            <h3>2. Les Aides "Silencieuses" qui changent tout</h3>
+            <p>Une fois les deux primes principales déduites, les propriétaires oublient souvent trois autres leviers cruciaux :</p>
+            <ul>
+                <li><strong>La TVA à 5,5% :</strong> La fourniture ET la pose d'une PAC Air/Eau ou géothermique (pour les résidences de plus de 2 ans) sont facturées au taux réduit de 5,5% au lieu de 20%. Cette "aide silencieuse" allège le devis de 14,5% instantanément !</li>
+                <li><strong>L'Éco-PTZ (Prêt à Taux Zéro) :</strong> Le reste à charge (RAC) vous effraie encore ? Vous pouvez financer jusqu'à 15 000 € (pour une action simple) ou 50 000 € (en Bouquet Rénovation Globale) <strong>sans aucun taux d'intérêt</strong>, sur 15 ans. Le remboursement s'autofinance par les économies d'énergie générées chaque mois.</li>
+                <li><strong>Les Subventions Locales (Mairies, Départements) :</strong> Certaines collectivités accélèrent la fin du fioul en ajoutant une enveloppe exclusive (ex: de 500€ à 2 000€). Pensez à vérifier le site de l'ANIL ou de votre mairie.</li>
+            </ul>
+
+            <h3>3. Mon Accompagnateur Rénov' : Le chef d'orchestre obligatoire</h3>
+            <p>Dès lors que vos travaux dépassent certains plafonds d'aide, ou si vous visez une "Rénovation Globale" (PAC + isolation pour sortir du statut de passoire thermique), le recours à <strong>Mon Accompagnateur Rénov' (MAR)</strong> devient obligatoire en 2026. L'immense avantage de ce consultant ? Il gère la totalité du montage, audite les devis de vos artisans RGE, et s'assure qu'absolument aucun euro d'aide publique ne vous échappe.</p>
+
+            <div class="mt-12 bg-emerald-50 border border-orange-100 rounded-2xl p-8 text-center">
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">Ne perdez pas de temps avec les calculs complexes</h3>
+                <p class="text-slate-700 mb-6">
+                    Connectez les données de votre maison à notre simulateur 2026. Nous vous fournissons immédiatement une estimation de votre reste à charge, primes déduites.
+                </p>
+                <a href="/calculateur-aides">
+                    <button class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-colors">
+                        Simuler mon cumul d'aides
+                    </button>
+                </a>
             </div>
         `
     }

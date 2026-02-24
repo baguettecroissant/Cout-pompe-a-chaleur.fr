@@ -9,18 +9,18 @@ export function StepsModule({ city }: StepsModuleProps) {
     const steps = [
         {
             icon: FileText,
-            title: "Demande de Devis",
-            desc: "Remplissez le formulaire en ligne pour détailler votre projet."
+            title: "Étude et Devis",
+            desc: "Décrivez votre projet de chauffage en ligne pour lancer la première étude d'éligibilité."
         },
         {
             icon: UserCheck,
             title: "Visite Technique",
-            desc: `Un artisan partenaire du ${city.department_code} vient prendre les mesures exactes.`
+            desc: `Un chauffagiste RGE du ${city.department_code} se déplace pour le dimensionnement thermique de la PAC.`
         },
         {
             icon: Wrench,
             title: "Installation",
-            desc: "Pose de votre pompe-a-chaleur en une demi-journée, sans dégâts."
+            desc: "Dépose de l'ancienne chaudière et pose de la pompe à chaleur (comptez généralement 2 à 4 jours de travaux)."
         }
     ];
 

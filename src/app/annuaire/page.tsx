@@ -92,7 +92,7 @@ export default function AnnuairePage() {
                     <ul>
                         <li>Effectuer une visite technique gratuite.</li>
                         <li>Établir un devis précis et sans engagement.</li>
-                        <li>Vous accompagner dans les dossiers d'aides (MaPrimeAdapt', APA, PCH).</li>
+                        <li>Vous accompagner dans les dossiers d'aides (MaPrimeRénov', CEE, Éco-PTZ).</li>
                     </ul>
                 </div>
             </section>

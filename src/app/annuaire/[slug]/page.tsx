@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     return {
         title: `Prix Pompe-a-Chaleur ${dept.name} (${dept.code}) - Installateurs & Devis`,
-        description: `Trouvez un installateur de pompe-a-chaleur agrée dans le ${dept.name} (${dept.code}). Devis comparatifs gratuits, aides locales (${dept.aide_locale}) et prix moyens.`,
+        description: `Trouvez un installateur de pompe-a-chaleur agrée dans le ${dept.name} (${dept.code}). Devis comparatifs gratuits, aides (MaPrimeRénov') et prix moyens.`,
         alternates: {
             canonical: `https://www.cout-pompe-a-chaleur.fr/annuaire/${slug}`,
         },
@@ -79,7 +79,7 @@ export default async function DepartmentPage({ params }: Props) {
                         </h1>
                         <p className="text-xl text-slate-300 max-w-3xl mx-auto">
                             Trouvez un artisan certifié RGE dans la région {dept.region}.
-                            Profitez des aides locales ({dept.aide_locale}) pour financer votre projet.
+                            Profitez des aides de l'État (MaPrimeRénov', CEE) pour financer votre projet.
                         </p>
                     </div>
                     {/* Background Pattern */}

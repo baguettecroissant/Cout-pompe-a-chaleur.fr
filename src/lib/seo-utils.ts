@@ -23,7 +23,7 @@ export function getAllCitySlugs(): string[] {
 export function generateCityMetadata(city: City) {
     return {
         title: `Prix Pompe-a-Chaleur ${city.name} (${city.zip}) - Devis & Installation`,
-        description: `Quel est le prix d'un pompe-a-chaleur à ${city.name} ? Comparez les tarifs des installateurs du département ${city.department_name} et obtenez votre devis gratuit.`,
+        description: `Quel est le prix d'une pompe-a-chaleur à ${city.name} ? Comparez les tarifs des installateurs du département ${city.department_name} et obtenez votre devis gratuit.`,
         alternates: {
             canonical: `https://www.cout-pompe-a-chaleur.fr/prix-pompe-a-chaleur/${city.slug}`,
         },

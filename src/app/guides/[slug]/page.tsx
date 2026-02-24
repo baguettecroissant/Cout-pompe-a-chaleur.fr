@@ -153,7 +153,7 @@ export default async function GuidePost({ params }: PageProps) {
                     <div className="mt-12 bg-emerald-50 border border-orange-100 rounded-2xl p-8 text-center">
                         <h3 className="text-2xl font-bold text-slate-900 mb-4">Besoin d'un devis précis ?</h3>
                         <p className="text-slate-700 mb-6">
-                            Nos artisans partenaires sont certifiés RGE et peuvent vous aider à monter votre dossier MaPrimeAdapt'.
+                            Nos artisans partenaires sont certifiés RGE et peuvent vous aider à monter votre dossier MaPrimeRénov'.
                         </p>
                         <Link href="/devis">
                             <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white text-lg px-8 rounded-full">

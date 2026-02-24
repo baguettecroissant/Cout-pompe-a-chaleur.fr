@@ -2,6 +2,54 @@ import { GuideArticle } from "./guides-content";
 
 export const GUIDES_PART_1: GuideArticle[] = [
     {
+        slug: "les-aides-financieres-pompe-a-chaleur",
+        title: "Les Aides Financières pour Pompe à Chaleur en 2026 : Le Guide Complet",
+        excerpt: "Découvrez toutes les aides de l'État (MaPrimeRénov', CEE, Éco-PTZ) pour financer l'installation de votre pompe à chaleur en 2026 et réduire votre reste à charge.",
+        date: "2026-02-24",
+        author: "Équipe Rédaction",
+        image: "/images/guides/aides-financement-pac.png",
+        metaTitle: "Aides Pompe à Chaleur 2026 : MaPrimeRénov', CEE | Guide Complet",
+        metaDescription: "Quelles sont les aides pour une pompe à chaleur en 2026 ? Découvrez MaPrimeRénov', les Primes CEE, l'Éco-PTZ et calculez vos droits pour réduire le coût de votre PAC.",
+        imagePrompt: "Professional, high-quality, ultra-realistic photo of a modern heat pump unit installed outside a beautiful contemporary house, with a subtly superimposed graphic representing financial savings or a Euro sign (€) to symbolize government grants and financial aid. Warm, inviting lighting, suggesting energy efficiency and eco-friendliness. 8k resolution, photorealistic.",
+        content: `
+            <h2>L'État vous aide à passer à la Pompe à Chaleur en 2026</h2>
+            <p>La transition énergétique est une priorité nationale. Pour encourager le remplacement des chaudières fossiles (fioul ou gaz) par des systèmes thermodynamiques comme la <strong>Pompe à Chaleur (PAC)</strong>, le gouvernement et les fournisseurs d'énergie ont reconduit et renforcé plusieurs dispositifs d'aides financières en 2026. L'objectif est de réduire drastiquement votre reste à charge.</p>
+
+            <h3>1. MaPrimeRénov' : L'aide principale de l'Anah</h3>
+            <p><strong>MaPrimeRénov'</strong> reste le dispositif phare. En 2026, elle est toujours ciblée sur le type de travaux et, surtout, sur vos revenus fiscaux de référence (classés par couleurs : Très Modeste, Modeste, Intermédiaire). Attention : les ménages aux revenus dits "Supérieurs" (Rose) n'ont plus droit à MaPrimeRénov' pour l'installation d'une PAC, mais peuvent encore prétendre aux CEE.</p>
+            <ul class="list-disc pl-6 space-y-2 mt-4 mb-6">
+                <li><strong>Montants pour une PAC Air/Eau ou Géothermique :</strong> Les primes peuvent s'élever jusqu'à <strong>11 000 €</strong> pour les foyers très modestes s'équipant d'une géothermie (plus coûteuse mais plus efficace), et généralement de <strong>3 000 € à 5 000 €</strong> pour une pompe à chaleur Air/Eau classique.</li>
+                <li><strong>Condition absolue :</strong> Le logement doit avoir plus de 15 ans et être utilisé comme résidence principale. L'artisan doit obligatoirement être certifié <strong>RGE (Reconnu Garant de l'Environnement)</strong>.</li>
+            </ul>
+
+            <h3>2. La Prime CEE (Coup de Pouce Chauffage)</h3>
+            <p>Les Certificats d'Économies d'Énergie (CEE) sont des primes versées par les pollueurs (fournisseurs d'électricité, de carburant...). Une bonification "Coup de pouce chauffage" s'applique lorsque vous remplacez une ancienne chaudière au fioul, au charbon ou au gaz (autre qu'à condensation).</p>
+            <p>Cette prime est <strong>cumulable avec MaPrimeRénov'</strong> et est accessible à <strong>tous les revenus</strong> (bien que bonifiée pour les ménages précaires). Elle peut atteindre jusqu'à <strong>4 000 €</strong>.</p>
+
+            <h3>3. Les autres leviers de financement</h3>
+            <ul class="list-disc pl-6 space-y-2 mt-4 mb-6">
+                <li><strong>La TVA à Taux Réduit (5,5 %) :</strong> Elle s'applique directement sur la facture de votre installateur (matériel et main d'œuvre) pour les pompes à chaleur Air/Eau ou géothermiques (les climatisations réversibles Air/Air restent à 20%).</li>
+                <li><strong>L'Éco-Prêt à Taux Zéro (Éco-PTZ) :</strong> Il vous permet de financer votre reste à charge sans payer aucun intérêt bancaire. Empruntez jusqu'à 15 000 € remboursables sur 15 ans pour une simple installation.</li>
+                <li><strong>Les Aides Locales :</strong> Renseignez-vous auprès de votre région ou département. Certaines collectivités rajoutent de 500 € à 2 000 € supplémentaires pour soutenir la filière locale.</li>
+            </ul>
+
+            <h2>Comment obtenir ces aides sans se faire piéger ?</h2>
+            <p>Le meilleur moyen est de s'appuyer sur des professionnels sérieux qui intègrent directement la partie administrative et la <strong>déduction des aides de votre devis</strong>. N'acceptez jamais un "devis à 1 euro" ou d'une entreprise non qualifiée <strong>RGE</strong>, sous peine de voir votre dossier rejeté.</p>
+
+            <div class="mt-12 bg-emerald-50 border border-orange-100 rounded-2xl p-8 text-center">
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">Estimez vos aides exactes</h3>
+                <p class="text-slate-700 mb-6">
+                    Utilisez notre outil gratuit pour connaître les subventions auxquelles vous avez droit avant de contacter un artisan RGE de votre région.
+                </p>
+                <a href="/calculateur-aides">
+                    <button class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-colors">
+                        Lancer le simulateur d'aides
+                    </button>
+                </a>
+            </div>
+        `
+    },
+    {
         slug: "refus-maprimeadapt-recours-dossier",
         title: "Refus MaPrimeRénov' 2026 : 3 Recours pour Débloquer Votre Dossier PAC",
         excerpt: "Dossier MaPrimeRénov' pour pompe à chaleur refusé en 2026 ? Comprenez les motifs réels et découvrez nos recours pour financer votre chauffage.",
