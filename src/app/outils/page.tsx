@@ -24,6 +24,15 @@ const tools = [
         cta: "Estimer mon prix",
     },
     {
+        slug: "calculateur-puissance",
+        title: "Calculateur de Puissance",
+        description: "Dimensionnez votre PAC en kW selon votre surface, isolation et zone climatique. Méthode G×V×ΔT.",
+        icon: Calculator,
+        color: "teal",
+        features: ["Puissance en kW", "Économies vs chauffage actuel", "8 zones climatiques"],
+        cta: "Calculer la puissance",
+    },
+    {
         slug: "calculateur-aides",
         title: "Calculateur d'Aides",
         description: "Simulez vos aides financières : MaPrimeRénov' (jusqu'à 10 000€), CEE, TVA réduite.",
@@ -51,6 +60,14 @@ const colorClasses = {
         iconColor: "text-emerald-600",
         button: "bg-emerald-600 hover:bg-emerald-700",
         badge: "bg-emerald-100 text-emerald-700",
+    },
+    teal: {
+        bg: "bg-teal-50",
+        border: "border-teal-200",
+        iconBg: "bg-teal-100",
+        iconColor: "text-teal-600",
+        button: "bg-teal-600 hover:bg-teal-700",
+        badge: "bg-teal-100 text-teal-700",
     },
     green: {
         bg: "bg-green-50",
@@ -95,7 +112,7 @@ export default function OutilsPage() {
             {/* Tools Grid */}
             <section className="py-16 -mt-8">
                 <div className="container mx-auto px-4">
-                    <div className="grid md:grid-cols-3 gap-8">
+                    <div className="grid md:grid-cols-2 gap-8">
                         {tools.map((tool) => {
                             const colors = colorClasses[tool.color as keyof typeof colorClasses];
                             const Icon = tool.icon;
@@ -168,6 +185,14 @@ export default function OutilsPage() {
                             donne une fourchette réaliste en fonction de votre configuration (Air/Air, Air/Eau ou Géothermie)
                             et de la surface de votre habitation. Pour aller plus loin, consultez notre
                             <Link href="/guides/prix-pompe-a-chaleur-2026" className="text-emerald-600"> guide complet des prix 2026</Link>.
+                        </p>
+
+                        <h3>Le calculateur de puissance : dimensionnez votre PAC</h3>
+                        <p>
+                            Avant de demander un devis, il est essentiel de connaître la <strong>puissance en kW</strong> nécessaire pour votre logement.
+                            Notre <Link href="/calculateur-puissance" className="text-emerald-600">calculateur de puissance PAC</Link> utilise
+                            la méthode normalisée G×V×ΔT en tenant compte de votre zone climatique, de votre isolation et de votre surface habitable
+                            pour vous donner un dimensionnement fiable.
                         </p>
 
                         <h3>Le calculateur d'aides : réduisez votre reste à charge</h3>
